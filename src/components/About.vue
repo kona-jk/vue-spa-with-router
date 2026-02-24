@@ -17,7 +17,7 @@ import Blog from '@/components/Blog.vue';
             </p>
           </div>
               <!--Right item-->
-          <div class="overflow-hidden mb-10 md:w-1/2 md:mr-8 ">
+          <div class="overflow-hidden flex lg:justify-between md:w-1/2 md:mr-10 lg:w-1/3">
         <img class="bg-cover" src="/src/assets/image/about-img.webp" alt="about-image">
       </div>  
       </div>  
