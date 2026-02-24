@@ -1,0 +1,58 @@
+@import './base.css';
+@import "tailwindcss";
+
+@font-face {
+  font-family: manrope;
+  src: url(../assets/fonts/Manrope/Manrope-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: manrope;
+  src: url(../assets/fonts/Manrope/Manrope-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: manrope;
+  src: url(../assets/fonts/Manrope/Manrope-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: manrope;
+  src: url(../assets/fonts/Manrope/Manrope-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@theme {
+  --font-manrope: manrope, 'sans-serif';
+  --color-primary: #000000;
+  --color-gray: #6b6b6b;
+  --color-blue: #0d66c2;
+  --color-text: #111111;
+  --color-orange: #e68b14;
+  --color-soft--pink: #f6cff4;
+  --color-base: #fbfaf3;
+  --color-yellow: #ffee58;
+  --color-white: #ffffff;
+  --color-dark--gray: #3d3d3d;
+  --color-purple: #503aa8;
+
+  --breakpoint-*: initial;
+  --breakpoint-sm:480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+}
+
+
+.text-yellow {
+  color: var(--color-yellow #ffee58);
+}
